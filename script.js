@@ -11,11 +11,11 @@
 //       console.log("number is pressed")
 //   });
 // });
-const numbers = document.querySelectorAll(".number");
+const numbers = document.querySelectorAll(".number")
 numbers.forEach((number) => {
-  number.addeventlistener("click",(event) => {
+  number.addEventListener("click",(event) => {
       console.log(event.target.value)
-  });
+  })
 });
 
 const calculatorScreen = document.querySelector('.calculator-screen')
