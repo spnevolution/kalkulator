@@ -1,16 +1,16 @@
-const numbers = document.querySelectorAll(".number");
-console.log(numbers);
+// const numbers = document.querySelectorAll(".number");
+// console.log(numbers);
 
-const numbers = document.querySelectorAll(".number");
-numbers.forEach((number) => {
-console.log(number);
-});
-const numbers = document.querySelectorAll(".number");
-numbers.forEach((number) => {
-number.addeventlistener("click",()=>{
-      console.log("number is pressed")
-  });
-});
+// const numbers = document.querySelectorAll(".number");
+// numbers.forEach((number) => {
+// console.log(number);
+// });
+// const numbers = document.querySelectorAll(".number");
+// numbers.forEach((number) => {
+// number.addeventlistener("click",()=>{
+//       console.log("number is pressed")
+//   });
+// });
 const numbers = document.querySelectorAll(".number");
 numbers.forEach((number) => {
   number.addeventlistener("click",(event) => {
@@ -22,7 +22,7 @@ const calculatorScreen = document.querySelector('.calculator-screen')
 
 const updateScreen = (number) => {
   calculatorScreen.value = number
-}
+};
 const numbers = document.querySelectorAll("number")
 
 numbers.forEach((number) => {
