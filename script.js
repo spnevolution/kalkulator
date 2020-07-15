@@ -1,22 +1,22 @@
-// const numbers = document.querySelectorAll(".number")
-// console.log("numbers")
-// });
-// const numbers = document.querySelectorAll(".number")
-// number.forEach((number) => {
-// console.log("number")
-// });
-// const numbers = document.querySelectorAll(".number")
-// numbers.forEach((number) => {
-  // number.addeventlistener("click",()=>{
-      // console.log("number is pressed")
-  // })
-// });
-// const numbers = document.querySelectorAll(".number")
-// numbers.forEach((number) => {
-  // number.addeventlistener("click",(event) => {
-      // console.log("event.target.value")
-  // })
-// });
+const numbers = document.querySelectorAll(".number");
+console.log(numbers);
+});
+const numbers = document.querySelectorAll(".number");
+number.forEach((number) => {
+console.log(number);
+});
+const numbers = document.querySelectorAll(".number");
+numbers.forEach((number) => {
+number.addeventlistener("click",()=>{
+      console.log("number is pressed")
+  });
+});
+const numbers = document.querySelectorAll(".number");
+numbers.forEach((number) => {
+  number.addeventlistener("click",(event) => {
+      console.log(event.target.value)
+  });
+});
 // const calculatorScreen = document.querySelector('.calculator-screen')
 
 // const updateScreen = (number) => {
