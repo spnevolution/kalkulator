@@ -38,7 +38,7 @@ operators.forEach((operator) => {
     console.log(event.target.value)
   })
 
-// });
+ });
 // const inputOperator = (operator) => {
 //       prevNumber = currentNumber
 //       calculationOperator = operator
@@ -122,8 +122,8 @@ operators.forEach((operator) => {
 //       break;
 
 
-  }
-};
+//   }
+// };
 
 // const clearBtn = document.querySelector('.all-clear')
 
