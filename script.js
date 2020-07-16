@@ -2,12 +2,14 @@ const calculatorScreen = document.querySelector('.calculator-screen')
 
 const updateScreen = (number) => {
   calculatorScreen.value = number
+  console.log(number)
 }
 const numbers = document.querySelectorAll("number")
 
 numbers.forEach((number) => {
   number.addeventlistener("click", (event) => {
     updateScreen(event.target.value)
+    
   })
 })
 let prevNumber = ''
