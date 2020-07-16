@@ -9,7 +9,7 @@ const numbers = document.querySelectorAll("number")
 numbers.forEach((number) => {
   number.addeventlistener("click", (event) => {
     updateScreen(event.target.value)
-    
+    console.log(event.target.value)
   })
 })
 let prevNumber = ''
