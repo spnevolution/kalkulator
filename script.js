@@ -7,7 +7,7 @@ const updateScreen = (number) => {
 const numbers = document.querySelectorAll("number")
 
 numbers.forEach((number) => {
-  number.addeventlistener("click", (event) => {
+  number.addEventListener("click", (event) => {
     updateScreen(event.target.value)
     console.log(event.target.value)
   })
@@ -24,9 +24,10 @@ const inputNumber = (number) =>{
   }
 }
   numbers.forEach((number) => {
-    number.addeventlistener("click",(event) =>{
+    number.addEventListener("click",(event) =>{
       inputNumber(event.target.value)
       updateScreen(currentNumber)
+      console.log(event.target.value)
     })
   });
 
