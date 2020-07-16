@@ -31,26 +31,26 @@ const inputNumber = (number) =>{
 
 
 
-const operators = document.querySelectorAll(".operator")
+// const operators = document.querySelectorAll(".operator")
 
-operators.forEach((operator) => {
-  operator.addeventlistener("click", (event) => {
-    console.log(event.target.value)
-  })
+// operators.forEach((operator) => {
+//   operator.addeventlistener("click", (event) => {
+//     console.log(event.target.value)
+//   })
 
- });
+//  });
 // const inputOperator = (operator) => {
 //       prevNumber = currentNumber
 //       calculationOperator = operator
 //       currentNumber = ''
 // }
- const inputOperator = (operator) => {
- if (calculationOperator === '') {
-   prevNumber = currentNumber
- }
-   calculationOperator = operator
-   currentNumber = '0'
- }
+//  const inputOperator = (operator) => {
+//  if (calculationOperator === '') {
+//    prevNumber = currentNumber
+//  }
+//    calculationOperator = operator
+//    currentNumber = '0'
+//  }
 // const operator = document.querySelectorAll(".operator")
 
 // operators.forEach((operator) => {
