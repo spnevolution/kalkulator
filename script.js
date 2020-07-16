@@ -12,9 +12,9 @@ numbers.forEach((number) => {
     console.log(event.target.value)
   })
 })
-let prevNumber = ''
-let calculationOperator =''
-let currentNumber ='0'
+let prevNumber = '';
+let calculationOperator ='';
+let currentNumber ='0';
 
 const inputNumber = (number) =>{
   if (currentNumber === '0') {
